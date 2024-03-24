@@ -137,3 +137,30 @@ span{
     font-size: 18px;
     margin-top: 20px;
 }
+/* Instagram Section Style  */
+.instragram-container{
+    text-align: center;
+    padding: 100px 200px 0;
+}
+.instragram-item{
+    margin: auto 300px;
+}
+.instragram-titel{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.instragram-discription{
+    font-size: 18px;
+}
+.instragram-img {
+    display: flex;
+    margin-top: 50px;
+    margin-right:40px;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.instragram-img img{
+    height: 250px;
+    width: 250px;
+}
