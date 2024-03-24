@@ -45,7 +45,7 @@ header{
 /* Flower Container style  */
 .flower-container{
     text-align: center;
-    padding: 50px 200px;
+    padding: 100px 200px 0;
 }
 .flower-item{
     margin: auto 300px;
@@ -95,4 +95,21 @@ header{
     border-top-left-radius: 200px;
     width: 200px;
     height: 250px;
+}
+/* Office Section Style  */
+.section-02{
+    background: #F4F4F4;
+    width: 75%;
+    margin: auto 200px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    gap: 150px;
+}
+.office-item{
+    text-align: center;
+    margin: 70px 0;
+}
+.office-discription{
+    margin-top: 10px;
 }
