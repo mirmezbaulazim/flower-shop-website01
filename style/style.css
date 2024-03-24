@@ -1,6 +1,43 @@
 *{
     margin: 0;
     font-family: "Lato", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+}
+header{
+    background:#FDEEF1;
+    height: 600px;
+    width: auto;
+}
+.header-container{
+    display: flex;
+    padding: 50px 200px;
+}
+.header-items{
+    margin-right: 150px;
+    margin-top: 50px;
+}
+.header-discription{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.header-titel{
+    font-size: 70px;
+}
+.btn-prymary{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 0;
+    background: #E55473;
+    margin-top: 20px;
+}
+.btn-prymary:hover{
+    background: #6e1e2f;
+    color: white;
+}
+.header-img img{
+    transform: scaleX(-1);
+    width: auto;
+    height: 550px;
+    display: block;
 }
