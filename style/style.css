@@ -156,11 +156,39 @@ span{
     display: flex;
     margin-top: 50px;
     margin-right:40px;
-    justify-content: center;
     gap: 50px;
     margin-bottom: 30px;
 }
 .instragram-img img{
-    height: 250px;
+    height: 280px;
     width: 250px;
+}
+/* Email Section Style  */
+.section-05{
+    margin: 80px 200px;
+    background-image: url("../style/FlowerAsset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    height: 450px;
+    width: auto;
+    border-radius: 10px;
+}
+.email-container{
+   text-align: center;
+   justify-content: center;
+}
+.email-titel{
+    font-size: 40px;
+    padding: 150px 0 0;
+}
+.email-discription{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.input-fild{
+    border-radius: 10px;
+    width: 500px;
+    font-size: 18px;
+    margin-right: 10px;
+    padding: 10px 15px;
+    border: 0;
 }
