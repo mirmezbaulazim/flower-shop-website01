@@ -2,6 +2,7 @@
     margin: 0;
     font-family: "Lato", sans-serif;
 }
+/* Header Style  */
 header{
     background:#FDEEF1;
     height: 600px;
@@ -39,5 +40,59 @@ header{
     transform: scaleX(-1);
     width: auto;
     height: 550px;
-    display: block;
+    /* display: block; */
+}
+/* Flower Container style  */
+.flower-container{
+    text-align: center;
+    padding: 50px 200px;
+}
+.flower-item{
+    margin: auto 300px;
+}
+.flower-titel{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.flower-discription{
+    font-size: 18px;
+}
+.flower-img {
+    display: flex;
+    margin-top: 50px;
+    margin-right:40px;
+    justify-content: center;
+    gap: 50px;
+}
+.flower-text h4{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.flower-img1{
+    background: #F2DEE8;
+    padding: 90px 50px 0;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    width: 200px;
+    height: 250px;
+    /* margin-right: 50px; */
+}
+.flower-img2{
+    background: #DAF0F1;
+    padding: 90px 50px 0;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    width: 200px;
+    height: 250px;
+    /* margin-right: 50px; */
+}
+.flower-img3{
+    background: #E4ECDC;
+    padding: 90px 50px 0;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    width: 200px;
+    height: 250px;
 }
